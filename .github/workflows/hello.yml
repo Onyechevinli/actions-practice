@@ -1,0 +1,8 @@
+name: MyFirstWorkflow
+on: push
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a greeting
+        run: echo "Hello from the robot!"
